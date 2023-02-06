@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: salmon;
+}
+
+button,
+input {
+  font-family: monospace;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.password1,
+.password2 {
+  margin-right: 1rem;
+}
